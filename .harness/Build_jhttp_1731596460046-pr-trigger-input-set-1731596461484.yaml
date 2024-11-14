@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jhttp_1731596460046-pr-trigger-input-set
+  identifier: Build_jhttp_1731596460046prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CICDPROJEDCT
+  pipeline:
+    identifier: Build_jhttp_1731596460046
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
